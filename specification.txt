@@ -1,7 +1,4 @@
-You should also create a text file, specification.txt,
-which lists the 10 HTML tags and 5 CSS properties you’ve used,
-as well as a brief (one-sentence) description
-of how you chose to use JavaScript and Bootstrap.
+My website pages are at https://lmst38.github.io/portfolio_website/.
 
 10 HTML tags
 1 List: <ul><li></li></ul>
