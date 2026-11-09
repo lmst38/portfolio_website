@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+      <!-- Bootstrap -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- for proper responsive behavior in mobile devices -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+      <!-- Bootstraps icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+      <!-- font M PLUS 1p from Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
+
+      <!-- my style sheet -->
+        <link href="styles.css" rel="stylesheet">
+
+        <title>Laura Troyer's webpage</title>
+    </head>
+
+    <body>
+      <!-- Bootstrap Nav element -->
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="coursework.html">Coursework</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+      <!-- Boostrap container -->
+        <div class="container text-left">
+          <div class="row">
+
+          <!-- Sidebar content -->
+            <div class="col">
+              <ul class="nav flex-column">
+                <li class="img-fluid">
+                    <img src="images/headshot.png" alt="woman at a computer, looking away" style="max-width: 180px;">
+                </li>
+                <li class="nav-item">
+                  <p class="sidebar-text">
+                    <b>Laura Troyer</b><br>
+                      ALM candidate in biology at Harvard Extension School
+                  </p>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mailto:lat890@g.harvard.edu?subject=Website%20contact"><i class="bi bi-envelope"></i> Email</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/lmst38"><i class="bi bi-github"></i> Github</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.linkedin.com/in/laura-troyer-5a9739408/"><i class="bi bi-linkedin"></i> Linkedin</a>
+                </li>
+              </ul>
+            </div>
+
+
+          <!-- Main content -->
+          <div class="col-10">
+            <div class="body-text">
+              <h3>Coursework</h3>
+            </div>
+
+            <div class="row row-cols-2">
+              <div class="col-md-auto">
+
+                <ul>
+                  <li class="course"
+                    data-description="An overview of the main aspects of biochemistry by relating molecular interactions to their effects on the organism as a whole,
+                    especially as related to human biology. The organization of macromolecules is addressed through a discussion of their hierarchical structure
+                    and a study of their assembly into complexes responsible for specific biological processes.
+                    Topics addressing protein function include enzyme kinetics, the characterization of major metabolic pathways, and their interconnection
+                    into tightly regulated networks. (Robin Haynes and Roopali Roy)">
+                    Biochemistry
+                  </li>
+                  <li class="course"
+                    data-description="Students gain an in-depth knowledge of nucleic acid structure, molecular genetics, and the biochemistry of transcription and protein synthesis.
+                      Other topics include how mechanisms of gene regulation play a role in retroviral pathogenesis and embryonic development. Each lecture directly relates molecular biology to current laboratory techniques.
+                      Virtual laboratory sessions provide students with a broad exposure to several important techniques in molecular biology.
+                      Virtual experiments include current approaches to mutation analysis, protein interaction assays, and recombinant cDNA cloning by PCR. (Alain Viel)">
+                    Molecular biology
+                  </li>
+                  <li class="course"
+                    data-description="An overview of cell biology, focusing on the fundamental structures and functions of cells, the basic unit of life.
+                    Students learn about the various components of cells, how cells are organized within multicellular organisms, and how they interact with their environment.
+                    The course also explores cutting-edge technologies that have enhanced our understanding of cell biology and their applications in medicine, health, and disease treatment.">
+                    Cell biology
+                  </li>
+                  <li class="course"
+                    data-description="This graduate seminar probes this question through critical analysis of the primary literature.
+                    Both classical as well as contemporary papers are scrutinized. We cover topics ranging from fertilization, organogenesis,
+                    patterning, regeneration, and aging, with a focus on humans whenever possible. (William J. Anderson)">
+                    Developmental biology
+                  </li>
+                  <li class="course"
+                    data-description="Proteomics seeks to identify and to characterize all the proteins synthesized in a cell or a tissue.
+                    Based on this information, one can then try to understand how individual proteins or protein collectives function within an organism.
+                    The first half of the course focuses on current methodology used to analyze and identify proteins.
+                    This includes protein electrophoresis, chromatography, mass spectrometry, and protein database analysis.
+                    The second half of the course focuses on case studies derived from the current scientific literature.
+                    This includes comparisons between healthy and diseased tissues, new approaches to analyze metabolic pathways,
+                    and the comprehensive analysis of protein-protein interactions in different cell types. (Alain Viel)">
+                    Proteomics
+                  </li>
+                  <li class="course"
+                    data-description="This course teaches the bioinformatics skills used in academic, biotech, and pharmaceutical laboratories for analyzing individual DNA and protein sequences.
+                    Classes consist of lecture and extensive hands-on work using mainstream web-based bioinformatics tools.
+                    Students learn how to evaluate data sources and choose the correct paths to solutions.
+                    Throughout the semester, interesting biological questions are addressed by analyzing sequences, searching databases,
+                    using sophisticated software, and interpreting results. (Michael Agostino)">
+                    Bioinformatics sequence analysis
+                  </li>
+                  <li class="course"
+                    data-description="An intensive introduction to the fundamental concepts of probability, statistical inference, and statistical computing necessary for a working knowledge of applied statistics.
+                    The course moves at an accelerated pace and requires a substantial commitment in time and effort. The primary goal of this course is to prepare students for conducting research in an applied field,
+                    which requires being comfortable with the technical details of analysis, statistical computing, and the scientific process as a whole,
+                    from determining appropriate methods for addressing a research question to clearly communicating findings in the context of the question.
+                    The course explores applications within biostatistics, among other fields. (Julie Vu and Kevin Rader)">
+                    Introduction to statistics<br>and applied data analysis
+                  </li>
+                  <li class="course"
+                    data-description="This course teaches students how to solve problems, both with and without code, with an emphasis on correctness, design, and style.
+                    Topics include computational thinking, abstraction, algorithms, data structures, and computer science more generally.
+                    Problem sets are inspired by the arts, humanities, social sciences, and sciences. More than teach students how to program in one language,
+                    this course teaches how to program fundamentally and ultimately how to teach oneself new programming languages.
+                    The course starts with a traditional but omnipresent language called C that underlies today's newer languages, through which students learn not only
+                    about functions, variables, conditionals, and loops, but also how computers themselves work underneath the hood, memory and all.
+                    The course then transitions to Python, a higher-level language that students understand all the more because of C.
+                    Toward term's end, the course introduces SQL, via which students can store data in databases, along with HTML, CSS, and JavaScript, via which students can create web and mobile applications.
+                    The course culminates in a final project. (Henry Leitner)">
+                    Intensive introduction<br>to computer science
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md-8">
+                <ul>
+                  <li class="description">Hover over a course to see its description</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+  </div>
+
+
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+        <!-- my JavaScript -->
+        <script src="javascript.js"></script>
+
+    </body>
+</html>
